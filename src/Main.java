@@ -2,11 +2,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Array array = new Array(5);
+//        working with array
 /*
 //        array.workingWithArray();
 */
+//        user defined dynamic array
 /*Array
+         Array array = new Array(5);
         array.insert(1);
         array.insert(2);
 //        array.insert(3);
@@ -29,5 +31,27 @@ public class Main {
 //        array.insertAt(0, 5);
         array.print();
     */
+//        LinkedList
+        LinkedList list = new LinkedList();
+        list.addFirst(10);
+        list.addFirst(20);
+        list.addFirst(30);
+//        list.print();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.print();
+//        System.out.println(list.indexOf(20));
+//        System.out.println(list.contains(100));
+//        list.removeFirst();
+//        list.removeLast();
+//        System.out.println();
+//        list.print();
+//        System.out.println(list.size());
+//        System.out.println(Arrays.toString(list.toArray()));
+//        list.reverse();
+        System.out.println();
+        System.out.println(list.getKthFromTheEnd(5));
+//        list.print();
     }
 }
