@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        working with array
@@ -32,7 +30,7 @@ public class Main {
         array.print();
     */
 //        LinkedList
-        LinkedList list = new LinkedList();
+        /*LinkedList list = new LinkedList();
         list.addFirst(10);
         list.addFirst(20);
         list.addFirst(30);
@@ -52,6 +50,57 @@ public class Main {
 //        list.reverse();
         System.out.println();
         System.out.println(list.getKthFromTheEnd(5));
-//        list.print();
+//        list.print();*/
+//        doubly LinkedList
+      /*  var dLinkedList = new DoublyLinkedList();
+        System.out.println(dLinkedList.size());
+        dLinkedList.addFirst(30);
+        dLinkedList.addFirst(20);
+        dLinkedList.addFirst(10);
+//        dLinkedList.print();
+        dLinkedList.addLast(40);
+//        dLinkedList.print();
+        dLinkedList.addFirst(5);
+//        dLinkedList.print();
+        dLinkedList.addAtIndex(50, 5);
+        dLinkedList.addAtIndex(50, 5);
+        System.out.println(dLinkedList.size());
+        dLinkedList.print();
+        System.out.println(Arrays.toString(dLinkedList.toArray()));*/
+//        Stack
+     /*   Stack<Integer> stack = new Stack<>();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        System.out.println(stack);
+        System.out.println(stack.pop());*/
+
+//      Stack Exercise
+        /*StackExercise exercise = new StackExercise();
+//        System.out.println(exercise.reverse("Hello World"));
+        System.out.println(exercise.isBalancedExpression("{(())}"));*/
+//      Stack
+        Stack stack = new Stack();
+        System.out.println(stack.isEmpty());
+        stack.push(1);
+        System.out.println(stack.isEmpty());
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        stack.push(6);
+        stack.push(7);
+        stack.push(8);
+        stack.push(9);
+        System.out.println(stack.isFull());
+        stack.push(10);
+        stack.print();
+        System.out.println(stack.isFull());
+        System.out.println(stack.pop());
+        System.out.println(stack.isFull());
+        System.out.println(stack.pick());
+        stack.push(11);
+        stack.print();
     }
 }
