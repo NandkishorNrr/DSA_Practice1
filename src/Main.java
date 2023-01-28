@@ -81,7 +81,7 @@ public class Main {
 //        System.out.println(exercise.reverse("Hello World"));
         System.out.println(exercise.isBalancedExpression("{(())}"));*/
 //      Stack
-        Stack stack = new Stack();
+       /* Stack stack = new Stack();
         System.out.println(stack.isEmpty());
         stack.push(1);
         System.out.println(stack.isEmpty());
@@ -101,6 +101,38 @@ public class Main {
         System.out.println(stack.isFull());
         System.out.println(stack.pick());
         stack.push(11);
-        stack.print();
+        stack.print();*/
+//        TwoStack
+        /*TwoStacks twoStacks = new TwoStacks();
+        twoStacks.push1(1);
+        twoStacks.push1(2);
+        twoStacks.push1(3);
+        twoStacks.push1(4);
+        twoStacks.push1(5);
+        twoStacks.push1(6);
+//        twoStacks.push1(6);
+        twoStacks.push2(10);
+        twoStacks.push2(9);
+        twoStacks.push2(8);
+        twoStacks.push2(7);
+//        twoStacks.push2(6);
+        twoStacks.print();
+        System.out.println(twoStacks.pop1());
+        System.out.println(twoStacks.pop2());
+        twoStacks.push1(60);
+        twoStacks.push2(70);
+        twoStacks.print();*/
+//        MinStack
+
+        MinStack minStack = new MinStack();
+
+        minStack.push(30);
+        minStack.push(40);
+        minStack.push(20);
+        minStack.push(50);
+        minStack.push(10);
+        System.out.println(minStack.min());
+        minStack.pop();
+        System.out.println(minStack.min());
     }
 }
