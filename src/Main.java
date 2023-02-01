@@ -123,8 +123,7 @@ public class Main {
         twoStacks.push2(70);
         twoStacks.print();*/
 //        MinStack
-
-        MinStack minStack = new MinStack();
+       /* MinStack minStack = new MinStack();
 
         minStack.push(30);
         minStack.push(40);
@@ -133,6 +132,36 @@ public class Main {
         minStack.push(10);
         System.out.println(minStack.min());
         minStack.pop();
-        System.out.println(minStack.min());
+        System.out.println(minStack.min());*/
+//        ArrayQueue
+/*
+        ArrayQueue arrayQueue = new ArrayQueue(5);
+
+        arrayQueue.enqueue(10);
+        arrayQueue.enqueue(20);
+        arrayQueue.enqueue(30);
+        arrayQueue.dequeue();
+        arrayQueue.enqueue(40);
+        arrayQueue.enqueue(50);
+        arrayQueue.enqueue(60);
+        var front = arrayQueue.dequeue();
+        arrayQueue.enqueue(70);
+        System.out.println(front);
+        System.out.println(arrayQueue);*/
+//        Queue with two stacks
+  /*
+        QueueWithTwoStack queue = new QueueWithTwoStack();
+
+        queue.enqueue(10);
+        queue.enqueue(20);
+        var deleteed = queue.dequeue();
+        var deleteed2 = queue.dequeue();
+//        System.out.println(deleteed);
+//        System.out.println(queue.peek());
+        queue.enqueue(30);
+        queue.enqueue(40);
+        queue.enqueue(50);
+        var deleteed3 = queue.dequeue();
+        var deleteed4 = queue.dequeue();*/
     }
 }
