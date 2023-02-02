@@ -15,6 +15,8 @@ public class QueueExercise {
         System.out.println(queue);
         reverse(queue);
         System.out.println(queue);
+        reverse(queue,3);
+        System.out.println(queue);
 
 
     }
@@ -27,5 +29,20 @@ public class QueueExercise {
 
         while (!stack.empty())
             queue.add(stack.pop());
+    }
+    public static void reverse(Queue<Integer> queue, int k) {
+        Queue<Integer> tempQueue = new ArrayDeque<>();
+        Stack<Integer> tempStack = new Stack<>();
+
+        for (int i = 0; i < k; i++)
+            tempStack.push(queue.remove());
+
+        while (!queue.isEmpty())
+            tempQueue.add(queue.remove());
+
+        while (!tempStack.isEmpty())
+            queue.add(tempStack.pop());
+        while (!tempQueue.isEmpty())
+            queue.add(tempQueue.remove());
     }
 }
