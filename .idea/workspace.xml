@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d0146c-ab10-4eb6-bc78-296a769b3f80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashMapExr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapExr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/HashMapExr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/QueueExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueWithTwoStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/QueueWithTwoStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/StackExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1/TwoStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,28 +39,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2KlhF3EfXAXz8KyEVrcAFKaWVSk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HashMapExr.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.HashMapExr">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HashMapExr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapExr" />
+      <option name="MAIN_CLASS_NAME" value="Practice1.HashMapExr" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListQueue" />
+      <option name="MAIN_CLASS_NAME" value="LinkedLis.LinkedListQueue" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,14 +82,14 @@
       </method>
     </configuration>
     <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PriorityQueue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.PriorityQueue" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="QueueExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueExercise" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueExercise" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +97,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashMapExr" />
         <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.QueueExercise" />
-        <item itemvalue="Application.PriorityQueueCrt" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,78 +138,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Array.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/Array.java</url>
           <line>104</line>
-          <properties class="Array" method="insertAt">
+          <properties class="Array.Array">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/LinkedList.java</url>
           <line>94</line>
-          <properties class="LinkedList" method="removeLast">
+          <properties class="LinkedLis.LinkedList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/LinkedList.java</url>
           <line>134</line>
-          <properties class="LinkedList" method="reverse">
+          <properties class="LinkedLis.LinkedList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/MinStack.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/MinStack.java</url>
           <line>10</line>
-          <properties class="MinStack" method="min">
+          <properties class="Stack.MinStack">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/Array.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/LinkedList.java</url>
           <line>123</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>58</line>
+          <line>61</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>62</line>
+          <line>65</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PriorityQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice1/PriorityQueue.java</url>
           <line>57</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>

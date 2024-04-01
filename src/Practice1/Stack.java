@@ -1,3 +1,5 @@
+package Practice1;
+
 public class Stack {
     private int[] stack = new int[10];
     private int top = 0;

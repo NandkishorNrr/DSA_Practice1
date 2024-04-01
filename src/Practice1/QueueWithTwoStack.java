@@ -1,3 +1,5 @@
+package Practice1;
+
 import java.util.Stack;
 public class QueueWithTwoStack {
     private Stack<Integer> stack1 = new Stack();

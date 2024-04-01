@@ -1,3 +1,5 @@
+package Practice1;
+
 import java.util.Arrays;
 
 public class PriorityQueue {
@@ -39,7 +41,7 @@ public class PriorityQueue {
 
     public static void main(String[] args) {
 //        built in priority queue
-      /*  PriorityQueue<Integer> priorityQueue = new java.util.PriorityQueue<>();
+      /*  Basic1.PriorityQueue<Integer> priorityQueue = new java.util.Basic1.PriorityQueue<>();
         priorityQueue.add(5);
         priorityQueue.add(3);
         priorityQueue.add(2);

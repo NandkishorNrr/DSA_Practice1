@@ -1,3 +1,5 @@
+package Practice1;
+
 public class TwoStacks {
     private int[] diQueue = new int[10];
     private int top1 = 0;

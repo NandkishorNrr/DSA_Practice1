@@ -1,3 +1,5 @@
+package Practice1;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +8,7 @@ public class Array {
     private int[] array;
     private int count = 0;
 
-    Array(int length){
+    public Array(int length){
         array = new int[length];
     }
     public void workingWithArray(){

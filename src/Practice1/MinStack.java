@@ -1,3 +1,5 @@
+package Practice1;
+
 public class MinStack {
     private int[] stack = new int[5];
     private int top = 0;

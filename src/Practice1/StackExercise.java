@@ -1,10 +1,12 @@
+package Practice1;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
 public class StackExercise {
 
-//    Stack
+//    Basic1.Stack
     private List<Character> leftBrackets = Arrays.asList('(', '{', '<', '[');
     private List<Character> rightBracket = Arrays.asList(')', '}', ']', '>');
 

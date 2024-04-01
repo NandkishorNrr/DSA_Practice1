@@ -1,3 +1,6 @@
+import Practice1.Array;
+import Practice1.QueueWithTwoStack;
+
 public class Main {
     public static void main(String[] args) {
 //        working with array
@@ -5,8 +8,8 @@ public class Main {
 //        array.workingWithArray();
 */
 //        user defined dynamic array
-/*Array
-         Array array = new Array(5);
+/*Basic1.Array
+         Basic1.Array array = new Basic1.Array(5);
         array.insert(1);
         array.insert(2);
 //        array.insert(3);
@@ -29,8 +32,8 @@ public class Main {
 //        array.insertAt(0, 5);
         array.print();
     */
-//        LinkedList
-        /*LinkedList list = new LinkedList();
+//        Basic1.LinkedList
+        /*Basic1.LinkedList list = new Basic1.LinkedList();
         list.addFirst(10);
         list.addFirst(20);
         list.addFirst(30);
@@ -51,8 +54,8 @@ public class Main {
         System.out.println();
         System.out.println(list.getKthFromTheEnd(5));
 //        list.print();*/
-//        doubly LinkedList
-      /*  var dLinkedList = new DoublyLinkedList();
+//        doubly Basic1.LinkedList
+      /*  var dLinkedList = new Basic1.DoublyLinkedList();
         System.out.println(dLinkedList.size());
         dLinkedList.addFirst(30);
         dLinkedList.addFirst(20);
@@ -67,8 +70,8 @@ public class Main {
         System.out.println(dLinkedList.size());
         dLinkedList.print();
         System.out.println(Arrays.toString(dLinkedList.toArray()));*/
-//        Stack
-     /*   Stack<Integer> stack = new Stack<>();
+//        Basic1.Stack
+     /*   Basic1.Stack<Integer> stack = new Basic1.Stack<>();
         stack.push(10);
         stack.push(20);
         stack.push(30);
@@ -76,12 +79,12 @@ public class Main {
         System.out.println(stack);
         System.out.println(stack.pop());*/
 
-//      Stack Exercise
-        /*StackExercise exercise = new StackExercise();
+//      Basic1.Stack Exercise
+        /*Basic1.StackExercise exercise = new Basic1.StackExercise();
 //        System.out.println(exercise.reverse("Hello World"));
         System.out.println(exercise.isBalancedExpression("{(())}"));*/
-//      Stack
-       /* Stack stack = new Stack();
+//      Basic1.Stack
+       /* Basic1.Stack stack = new Basic1.Stack();
         System.out.println(stack.isEmpty());
         stack.push(1);
         System.out.println(stack.isEmpty());
@@ -103,7 +106,7 @@ public class Main {
         stack.push(11);
         stack.print();*/
 //        TwoStack
-        /*TwoStacks twoStacks = new TwoStacks();
+        /*Basic1.TwoStacks twoStacks = new Basic1.TwoStacks();
         twoStacks.push1(1);
         twoStacks.push1(2);
         twoStacks.push1(3);
@@ -122,8 +125,8 @@ public class Main {
         twoStacks.push1(60);
         twoStacks.push2(70);
         twoStacks.print();*/
-//        MinStack
-       /* MinStack minStack = new MinStack();
+//        Basic1.MinStack
+       /* Basic1.MinStack minStack = new Basic1.MinStack();
 
         minStack.push(30);
         minStack.push(40);
@@ -133,9 +136,9 @@ public class Main {
         System.out.println(minStack.min());
         minStack.pop();
         System.out.println(minStack.min());*/
-//        ArrayQueue
+//        Basic1.ArrayQueue
 /*
-        ArrayQueue arrayQueue = new ArrayQueue(5);
+        Basic1.ArrayQueue arrayQueue = new Basic1.ArrayQueue(5);
 
         arrayQueue.enqueue(10);
         arrayQueue.enqueue(20);
@@ -149,8 +152,7 @@ public class Main {
         System.out.println(front);
         System.out.println(arrayQueue);*/
 //        Queue with two stacks
-  /*
-        QueueWithTwoStack queue = new QueueWithTwoStack();
+/*        QueueWithTwoStack queue = new QueueWithTwoStack();
 
         queue.enqueue(10);
         queue.enqueue(20);
@@ -163,5 +165,6 @@ public class Main {
         queue.enqueue(50);
         var deleteed3 = queue.dequeue();
         var deleteed4 = queue.dequeue();*/
+
     }
 }
